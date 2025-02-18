@@ -1,0 +1,74 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec;
+    color: #444;
+}
+
+header {
+    background-color: #f06292;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #ffcccb;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ff80ab;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #f06292;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #ff4081 }
+
+.product button:hover {
+    background-color: #f06292;
+}
