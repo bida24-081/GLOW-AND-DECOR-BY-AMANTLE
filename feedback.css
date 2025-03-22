@@ -1,94 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', Arial, sans-serif;
-    background: linear-gradient(135deg, #ffe4e1, #ffccd5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+    <form action="thank-you.html">
+        <h1>Feedback Form</h1>
 
+        <!-- First Name -->
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first name" required>
 
-.form-container {
-    background: #fff0f6; 
-    border: 2px solid #ffd1dc; 
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
-    max-width: 450px;
-    width: 90%;
-    padding: 30px;
-    text-align: center;
-}
+        <!-- Last Name -->
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last name" required>
 
+        <!-- Gender -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Male</label>
 
-h1 {
-    color: #d63384; 
-    font-size: 28px;
-    margin-bottom: 20px;
-}
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
 
-/* Labels */
-label {
-    display: block;
-    margin: 10px 0 5px;
-    font-weight: 600;
-    color: #b81d55;
-    text-align: left;
-}
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
 
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
 
-input, textarea {
-    width: 100%;
-    padding: 12px;
-    margin-top: 5px;
-    border: 1px solid #ff99cc;
-    border-radius: 8px;
-    font-size: 14px;
-    background: #fff;
-    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.05);
-    transition: border-color 0.3s;
-}
-
-
-input:focus, textarea:focus {
-    border-color: #ff66b2;
-    outline: none;
-}
-
-
-button {
-    margin-top: 20px;
-    background: linear-gradient(145deg, #ff66b2, #ff3399);
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 12px 0;
-    border: none;
-    border-radius: 8px;
-    width: 100%;
-    cursor: pointer;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: background 0.2s, transform 0.1s;
-}
-
-
-button:hover {
-    background: linear-gradient(145deg, #ff3399, #d63384);
-    transform: translateY(-2px);
-}
-
-
-button:active {
-    transform: translateY(0);
-}
-
-
-@media (max-width: 480px) {
-    .form-container {
-        width: 90%;
-        padding: 20px;
-    }
-}
+</body>
+</html>
 
