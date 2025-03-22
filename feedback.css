@@ -1,16 +1,4 @@
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', Arial, sans-serif;
-    background: linear-gradient(135deg, #ffe4e1, #ffccd5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-
 form {
     background: #fff0f6;
     border: 2px solid #ffd1dc;
@@ -24,13 +12,6 @@ form {
 }
 
 
-h1 {
-    color: #d63384;
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-
 label {
     display: block;
     margin-top: 15px;
@@ -40,7 +21,7 @@ label {
 }
 
 
-input[type="text"] {
+input[type="text"], textarea, select {
     width: 100%;
     padding: 12px;
     margin-top: 5px;
@@ -53,17 +34,27 @@ input[type="text"] {
     transition: border-color 0.3s;
 }
 
-
-input[type="text"]:focus {
+input[type="text"]:focus, textarea:focus, select:focus {
     border-color: #ff66b2;
     outline: none;
 }
 
-input[type="radio"] {
-    margin: 10px;
-    accent-color: #ff66b2;
+
+textarea {
+    height: 100px;
+    resize: none;
 }
 
+
+select {
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid #ff99cc;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
 
 input[type="submit"] {
     margin-top: 20px;
@@ -91,18 +82,5 @@ input[type="submit"]:active {
     transform: translateY(0);
 }
 
-
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-
-@media (max-width: 480px) {
-    form {
-        width: 90%;
-        padding: 20px;
-    }
-}
 
 
