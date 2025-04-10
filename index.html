@@ -44,16 +44,19 @@
     </section>
 
 <script>
-  // Show prompt after 50 seconds (50,000 milliseconds)
   setTimeout(function() {
-    let enjoying = prompt("Are you enjoying the site?");
-    if (enjoying) {
-      alert("Awesome! If you’d like, you can leave us some feedback in the form below 💬");
+    let feedback = prompt("Are you enjoying the site?");
+    if (feedback && feedback.toLowerCase() === "yes") {
+      alert("Awesome! We'd love a quick review 💖");
+      window.location.href = "feedback.html"; // takes them to your feedback page
     } else {
-      alert("No worries! Feel free to let us know how we can improve in the feedback form 💗");
+      alert("Thanks for your feedback! You can let us know more in the form below 💌");
+      // Optional: also redirect to the feedback page
+      // window.location.href = "feedback.html";
     }
-  }, 50000); // 50 seconds
+  }, 60000); // 60 seconds delay
 </script>
+
 
 
 
