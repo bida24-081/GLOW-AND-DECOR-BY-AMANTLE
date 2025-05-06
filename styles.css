@@ -23,6 +23,12 @@ header .logo {
     color: white;
     font-weight: bold;
 }
+.logo {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* centers the image */
+}
 
 header nav ul {
     list-style-type: none;
