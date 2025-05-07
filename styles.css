@@ -1,4 +1,4 @@
-/* GLOBAL STYLES + BACKGROUND */
+
 html, body {
   height: 100%;
   margin: 0;
@@ -17,13 +17,13 @@ body {
   color: white;
 }
 
-/* HEADER */
+
 header {
   padding: 10px 0;
   text-align: center;
 }
 
-/* LOGO + TITLE */
+
 .logo-title {
   display: flex;
   align-items: center;
@@ -44,7 +44,7 @@ header {
   margin: 0;
 }
 
-/* NAVIGATION */
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -70,7 +70,16 @@ nav ul li a:hover {
   color: #ffcccb;
 }
 
-/* FOOTER */
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 0 0 15px 15px;
+  box-shadow: 0 4px 12px rgba(255, 105, 180, 0.2);
+}
+
+
 footer {
   margin-top: auto;
   padding: 15px 0;
