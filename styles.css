@@ -140,4 +140,37 @@ footer {
   transform: translateY(0);
 }
 
+.thank-you {
+  text-align: center;
+  margin: 100px auto;
+  padding: 40px;
+  background: #ffe6f2;
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you h2 {
+  color: #d63384;
+  font-family: "Playfair Display", serif;
+}
+
+.thank-you p {
+  color: #555;
+}
+
+.thank-you .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff66b2;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.thank-you .btn:hover {
+  background: #d63384;
+}
+
 
