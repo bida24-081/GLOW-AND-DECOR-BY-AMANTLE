@@ -69,16 +69,19 @@ nav ul li a {
 nav ul li a:hover {
   color: #ffcccb;
 }
-
+<style>
 .banner img {
   width: 100%;
-  height: auto;
+  max-height: 300px; /* adjust this value to make it shorter */
+  object-fit: cover; /* crops edges neatly instead of squishing */
   display: block;
   margin-bottom: 20px;
   border-radius: 0 0 15px 15px;
   box-shadow: 0 4px 12px rgba(255, 105, 180, 0.2);
 }
 
+
+</style>
 
 footer {
   margin-top: auto;
