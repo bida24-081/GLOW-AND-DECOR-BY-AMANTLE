@@ -79,4 +79,65 @@ footer {
   color: white;
   font-size: 14px;
 }
+.payment-container {
+  background: #ffe6f2;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.payment-container h2 {
+  color: #d63384;
+  font-family: "Playfair Display", serif;
+}
+
+.payment-container p {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.payment-container label {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #b81d55;
+}
+
+.payment-container input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid #d63384;
+  border-radius: 8px;
+  font-size: 14px;
+  background: #fff;
+}
+
+.payment-container button {
+  background: linear-gradient(145deg, #ff66b2, #ff3399);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.payment-container button:hover {
+  background: linear-gradient(145deg, #ff3399, #d63384);
+  transform: translateY(-2px);
+}
+
+.payment-container button:active {
+  transform: translateY(0);
+}
+
 
