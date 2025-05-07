@@ -1,120 +1,65 @@
 
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-
-.logo-title h1 {
-  color: white; 
-  font-family: 'Dancing Script', cursive; 
-    
-  display: flex;
-  align-items: center;
-  gap: 3px; 
-  padding: 10px;
-}
-
-.logo {
-  width: 20px; 
-  height: auto;
-}
-
-   
-    
-    
-  body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
   background-image: url("images/glow-and-decor.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  color: white;
 }
-
-
-
-}
-
-body {
-  font-family: 'Poppins', sans-serif;
-}
-
 
 header {
-
-    padding: 20px 0;
-    text-align: center;
+  padding: 10px 0;
+  text-align: center;
 }
 
-header .logo {
-    font-size: 32px;
-    color: white;
-    font-weight: bold;
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
 }
+
+
 .logo {
-  width: 100px;
+  width: 50px;
   height: auto;
-  display: block;
-  margin: 0 auto; /* centers the image */
-}
-
-header nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-header nav ul li a:hover {
-    color: #ffcccb;
 }
 
 
-.hero {
-    text-align: center;
-    padding: 50px 0;
-    background-color: #ff80ab;
-    color: white;
-}
-
-.hero h1 {
-    font-size: 36px;
-}
-
-.hero p {
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.hero .btn {
-    padding: 10px 20px;
-    background-color: #f06292;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-
-.hero .btn:hover {
-    background-color: #ff4081 }
-
-.product button:hover {
-    background-color: #f06292;
-}
-
-
-body {
-  font-family: Arial, sans-serif;
+.logo-title h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 36px;
+  color: white;
   margin: 0;
-  padding: 0;
 }
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffcccb;
+}
+
