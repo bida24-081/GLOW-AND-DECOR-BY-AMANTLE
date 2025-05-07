@@ -33,10 +33,7 @@ header {
 .logo {
   width: 40px;
   height: auto;
-  background-color: white;
-  padding: 5px;
-  border-radius: 8px;
-  
+  filter: drop-shadow(0 0 5px white);
 }
 
 .logo-title h1 {
