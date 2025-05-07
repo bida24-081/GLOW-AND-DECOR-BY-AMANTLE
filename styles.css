@@ -3,8 +3,16 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fce4ec;
-    color: #444;
+}
+   
+    
+    body {
+  background-image: url("your-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+
 }
 
 body {
