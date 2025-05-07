@@ -5,15 +5,19 @@ body {
     padding: 0;
 }
 
-.logo-title {
+
+.logo-title h1 {
+  color: #a855f7; 
+  font-family: 'Dancing Script', cursive; 
+    
   display: flex;
   align-items: center;
-  gap: 5px; 
-  padding: 20px;
+  gap: 3px; 
+  padding: 10px;
 }
 
 .logo {
-  width: 25px; 
+  width: 20px; 
   height: auto;
 }
 
