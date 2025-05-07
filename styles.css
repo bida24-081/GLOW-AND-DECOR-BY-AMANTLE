@@ -6,11 +6,14 @@ body {
 }
    
     
-    body {
-  background-image: url("GLOW& DECOR BY AMANTLE (2).png");
+    
+  body {
+  background-image: url("images/glow-decor-banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
 
 
 }
