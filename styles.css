@@ -8,7 +8,7 @@ body {
 .logo-title {
   display: flex;
   align-items: center;
-  gap: 10px; 
+  gap: 5px; 
   padding: 20px;
 }
 
