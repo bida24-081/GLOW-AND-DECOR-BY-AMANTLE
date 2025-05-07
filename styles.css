@@ -7,7 +7,7 @@ body {
 
 
 .logo-title h1 {
-  color: #a855f7; 
+  color: white; 
   font-family: 'Dancing Script', cursive; 
     
   display: flex;
@@ -52,7 +52,7 @@ header .logo {
     font-weight: bold;
 }
 .logo {
-  width: 150px;
+  width: 100px;
   height: auto;
   display: block;
   margin: 0 auto; /* centers the image */
