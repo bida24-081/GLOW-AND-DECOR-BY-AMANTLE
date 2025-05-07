@@ -62,4 +62,25 @@ nav ul li a {
 nav ul li a:hover {
   color: #ffcccb;
 }
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+footer {
+  margin-top: auto;
+  padding: 15px 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: black;
+  font-size: 14px;
+}
 
