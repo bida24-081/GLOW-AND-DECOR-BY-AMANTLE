@@ -231,39 +231,5 @@ footer {
   background-color: #ff1493;
 }
 
-.high-contrast {
-  background-color: #000 !important;
-  color: #FFD700 !important;
-}
 
-.high-contrast a {
-  color: #00ffff !important;
-}
-
-.high-contrast nav ul li a:hover {
-  color: magenta !important;
-}
-
-/* Only apply color changes here, not layout changes */
-.high-contrast h1,
-.high-contrast p,
-.high-contrast li,
-.high-contrast a,
-.high-contrast button {
-  color: yellow !important;
-}
-
-/* Optional: Keep the high-contrast mode limited to just text and background colors */
-.high-contrast .payment-container, 
-.high-contrast .thank-you, 
-.high-contrast .form-container {
-  background-color: #111 !important; /* Dark background for form containers */
-}
-
-.high-contrast .buy-btn,
-.high-contrast .email-btn,
-.high-contrast .whatsapp-btn {
-  background-color: #FFD700 !important; /* High contrast for buttons */
-  color: #000 !important;
-}
 
