@@ -334,4 +334,11 @@ footer {
   color: magenta !important;
 }
 
+.high-contrast h1,
+.high-contrast p,
+.high-contrast li,
+.high-contrast a,
+.high-contrast button {
+  color: yellow !important;
+}
 
