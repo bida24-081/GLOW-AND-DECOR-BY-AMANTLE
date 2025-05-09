@@ -290,9 +290,4 @@ footer {
   text-decoration: underline;
 }
 
-@media (max-width: 600px) {
-  body {
-    background-position: top center;
-  }
-}
 
