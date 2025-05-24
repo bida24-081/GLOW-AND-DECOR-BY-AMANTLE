@@ -8,7 +8,7 @@ body {
   font-family: 'Poppins', sans-serif;
   display: flex;
   flex-direction: column;
-  background-image: url("images/glowdecorbanner.png");
+  background-image: url("images/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -16,7 +16,7 @@ body {
   color: white;
 }
 
-/* HEADER */
+
 header {
   padding: 10px 0;
   text-align: center;
@@ -43,7 +43,7 @@ header {
   margin: 0;
 }
 
-/* NAVIGATION */
+
 nav ul {
   list-style: none;
   padding: 0;
