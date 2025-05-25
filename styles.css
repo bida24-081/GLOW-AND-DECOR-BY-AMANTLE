@@ -15,6 +15,8 @@ body {
   background-attachment: scroll;
   color: white;
 }
+h1, p { 
+    color : #D81B60  }
 
 
 header {
