@@ -290,4 +290,49 @@ footer {
 .whatsapp-link:hover {
   text-decoration: underline;
 }
+.product-showcase {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(6px);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+}
+
+.product-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 3px solid #ff69b4;
+}
+
+.product-info {
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.product-info h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ff69b4;
+}
+
+.product-info p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
 
