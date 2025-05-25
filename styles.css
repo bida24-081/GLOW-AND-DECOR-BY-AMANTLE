@@ -15,8 +15,9 @@ body {
   background-attachment: scroll;
   color: white;
 }
-h1, p, nav { 
+h1, p, nav, .subtitle , buy-now-banner { 
     color :#ff69b4 }
+
 
 
 header {
